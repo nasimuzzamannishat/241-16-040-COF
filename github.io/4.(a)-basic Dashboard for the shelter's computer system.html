@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pet Shelter Dashboard</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+  .navbar { background-color: #333; overflow: hidden; }
+  .navbar a { float: left; display: block; color: white; text-align: center; padding: 14px 20px; text-decoration: none; }
+  .navbar a:hover { background-color: #ddd; color: black; }
+  .main-content { padding: 20px; }
+  .dashboard-button { background-color: #4CAF50; color: white; padding: 10px 20px; margin: 10px; border: none; border-radius: 5px; cursor: pointer; }
+  .dashboard-button:hover { background-color: #45a049; }
+  table { width: 100%; border-collapse: collapse; margin: 25px 0; }
+  th, td { padding: 12px 15px; border: 1px solid #ddd; text-align: left; }
+  th { background-color: #f2f2f2; }
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="#home"><i class="fas fa-paw"></i> Home</a>
+  <a href="#pet-management">Pet Management</a>
+  <a href="#adoption-records">Adoption Records</a>
+  <!-- Add more navigation links here -->
+</div>
+
+<div class="main-content">
+  <h1>Welcome to the Pet Shelter Dashboard</h1>
+  <button class="dashboard-button" onclick="managePets()">Manage Pets</button>
+  <button class="dashboard-button" onclick="viewAdoptionRecords()">Adoption Records</button>
+  <!-- Add more buttons for other functionalities -->
+
+  <!-- Example of a table for pet management -->
+  <h2>Pet Management</h2>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Breed</th>
+      <th>Age</th>
+      <th>Actions</th>
+    </tr>
+    <!-- Table rows will be dynamically generated here -->
+  </table>
+</div>
+
+<script>
+function managePets() {
+  // Code to navigate to the pet management section
+  alert('Navigating to Pet Management...');
+}
+
+function viewAdoptionRecords() {
+  // Code to navigate to the adoption records section
+  alert('Navigating to Adoption Records...');
+}
+
+// Add more functions for other functionalities
+</script>
+</body>
+</html>
